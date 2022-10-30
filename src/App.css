@@ -22,7 +22,9 @@ button{
   padding: 2rem 0;
   width: 80vw;
   margin: 0.4rem 0;
-  
+  background-color: #D0D5DD;
+  border: none;
+  border-radius: 4px;
 }
 
 .tweet__pic{
