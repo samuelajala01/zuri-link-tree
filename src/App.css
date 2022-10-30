@@ -1,44 +1,86 @@
-
 #root {
   max-width: 1280px;
   margin: auto;
-  margin-top: 4rem;
+  margin-top: 2rem;
   padding: 2rem;
   text-align: center;
+  color: #101828;
 }
 
-section{
+#twitter {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.shareDesktop {
+  position: absolute;
+  right: 16vw;
+  top: 3rem;
+}
+
+.shareMobile {
+  display: none;
+}
+
+section {
   margin-bottom: 1.5rem;
 }
 
-a{
+#btn__zuri,
+#books,
+#book__python,
+#pitch,
+#book__design {
+  display: block;
   text-decoration: none;
-  color: black;
   height: fit-content;
   width: 100%;
-}
-
-button{
-  padding: 2rem 0;
+  color: #101828;
+  background-color: #EAECF0;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 1.6rem 0;
   width: 80vw;
-  margin: 0.4rem 0;
-  
+  margin: 1rem 0;
+  border: none;
 }
 
-.tweet__pic{
+.tweet__pic {
   height: 100%;
   border-radius: 50%;
   height: 8rem;
 }
 
-.logo__div img{
+.logo__div img {
   padding: 0.5rem;
 }
 
+footer {
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  padding: 0.5rem;
+  border-top: 2px solid #101828;
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+}
 
+@media screen and (max-width: 800px) {
+  footer {
+    display: block;
+    text-align: left;
+  }
 
+  .shareMobile {
+    display: block;
+    position: absolute;
+    right: 8vw;
+    top: 3rem;
+  }
 
+  .shareDesktop {
+    display: none;
+  }
 
-
-
-
+}
