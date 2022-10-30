@@ -1,5 +1,7 @@
 import Link from "./Link"
 import TweetPic from "../assets/70098418.png" 
+import SlackLogo from "../assets/slack.svg"
+import GitLogo from "../assets/Icon.svg"
 
 const MainPage = () => {
     return(
@@ -14,6 +16,7 @@ const MainPage = () => {
           <Link id='pitch' href='https://background.zuri.team' name="Background Check" />
           <Link id='book__design' href='https://books.zuri.team/design-rules' name="Books on Design" />
           </section>
+          <span className="logo__div"><img src={SlackLogo}/><img src={GitLogo} /></span>
         </>
     )
 }
