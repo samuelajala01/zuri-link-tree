@@ -6,6 +6,7 @@ import i4g from "../assets/I4G.svg"
 import shareDesktop from '../assets/share-btn-desktop.svg'
 import shareMobile from '../assets/share-btn-mobile.svg'
 
+
 const MainPage = () => {
   return (
     <>
@@ -20,6 +21,7 @@ const MainPage = () => {
         <a id='book__python' href='https://books.zuri.team/python-for-beginners?ref_id=cy63rx'>Python Books</a>
         <a id='pitch' href='https://background.zuri.team'>Background check for coders</a>
         <a id='book__design' href='https://books.zuri.team/design-rules' >Design Books</a>
+        <a id="contact" href="/contact">Contact</a>
       </section>
       <span className="logo__div"><img src={SlackLogo} /><img src={GitLogo} /></span>
       <footer><img src={ZuriLogo} /> <p>HNG Internship 9 Frontend task</p><img src={i4g} /></footer>

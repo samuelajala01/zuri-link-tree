@@ -30,7 +30,8 @@ section {
 #books,
 #book__python,
 #pitch,
-#book__design {
+#book__design,
+#contact {
   display: block;
   text-decoration: none;
   height: fit-content;
@@ -43,6 +44,7 @@ section {
   width: 80vw;
   margin: 1rem 0;
   border: none;
+  border-radius: 10px;
 }
 
 .tweet__pic {
