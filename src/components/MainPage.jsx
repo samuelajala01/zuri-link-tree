@@ -1,10 +1,9 @@
 import TweetPic from "../assets/70098418.png"
 import SlackLogo from "../assets/slack.svg"
 import GitLogo from "../assets/Icon.svg"
-import ZuriLogo from "../assets/zuri-internship.svg"
-import i4g from "../assets/I4G.svg"
 import shareDesktop from '../assets/share-btn-desktop.svg'
 import shareMobile from '../assets/share-btn-mobile.svg'
+import Footer from "./Footer"
 
 
 const MainPage = () => {
@@ -23,8 +22,8 @@ const MainPage = () => {
         <a id='book__design' href='https://books.zuri.team/design-rules' >Design Books</a>
         <a id="contact" href="/contact">Contact</a>
       </section>
-      <span className="logo__div"><img src={SlackLogo} /><img src={GitLogo} /></span>
-      <footer><img src={ZuriLogo} /> <p>HNG Internship 9 Frontend task</p><img src={i4g} /></footer>
+      <span className="logo__div"><img src={SlackLogo} /><a href="https://github.com/samuelajala01"><img src={GitLogo} /></a></span>
+      <Footer />
     </section>
   )
 }

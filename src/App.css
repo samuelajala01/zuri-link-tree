@@ -21,6 +21,7 @@
 #twitter {
   font-size: 20px;
   font-weight: 700;
+  margin: 1.5rem 0;
 }
 
 .shareDesktop {
@@ -81,19 +82,24 @@ footer {
 #contact-page {
   width: 80vw;
   margin: auto;
+  margin-top: 3rem;
+  /* margin-left: 4rem;
+  margin-right: 4rem; */
+  margin-bottom: 5rem;
 }
 
 #contact-page h4 {
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: start;
-  margin: 1rem 0;
 }
 
 #contact-page p {
-  margin-bottom: 0.5rem;
+  margin: 2rem 0;
+  font-size: 1.5rem;
 }
 
 form {
+  /* margin: 0 3rem; */
   display: block;
   text-align: initial;
 }
@@ -101,6 +107,7 @@ form {
 label {
   display: block;
   padding: 0.4rem 0;
+  margin-left: 0.4rem;
 }
 
 .row {
@@ -113,22 +120,47 @@ label {
   flex-basis: 48%;
 }
 
-#firstname,
-#lastname,
-#email {
+#first_name,
+#last_name,
+#email,
+textarea,
+button {
   width: 100%;
-  margin-bottom: 0.4rem;
-
+  border-radius: 10px;
 }
 
-input {
-  padding: 0.5rem;
-  border: 1px solid #B2DDFF;
+textarea::placeholder {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.input-group,
+.email {
+  margin-bottom: 0.8rem;
+}
+
+.contract {
+  margin: 1.5rem 0;
+}
+
+span {
+  margin-left: 0.4rem;
+}
+
+input,
+textarea {
+  border: 1px solid gray;
+  padding: 0.7rem;
   outline: 0;
+  font-size: 1.2rem;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #B2DDFF;
 }
 
 #contact-page button {
-  width: 100%;
+  border: unset;
   padding: 0.5rem;
   background-color: #175CD3;
   color: #ffffff;
@@ -141,6 +173,10 @@ input {
     text-align: left;
   }
 
+  footer p {
+    margin: 1.5rem 0;
+  }
+
   .shareMobile {
     display: block;
     position: absolute;
@@ -150,6 +186,14 @@ input {
 
   .shareDesktop {
     display: none;
+  }
+
+  .row {
+    display: block;
+  }
+
+  #contact-page {
+    width: 90vw;
   }
 
 }
