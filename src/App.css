@@ -1,6 +1,9 @@
-/* * {
-  border: 1px solid red;
-} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
 
 #root {
   max-width: 1280px;
@@ -86,11 +89,13 @@ footer {
   margin: 1rem 0;
 }
 
+#contact-page p {
+  margin-bottom: 0.5rem;
+}
+
 form {
   display: block;
   text-align: initial;
-  /* width: fit-content; */
-  max-width: 100%;
 }
 
 label {
@@ -108,14 +113,15 @@ label {
   flex-basis: 48%;
 }
 
-.firstname,
-.lastname {
-  /* flex: 1; */
+#firstname,
+#lastname,
+#email {
   width: 100%;
+  margin-bottom: 0.4rem;
+
 }
 
-input,
-textarea {
+input {
   padding: 0.5rem;
   border: 1px solid #B2DDFF;
   outline: 0;
