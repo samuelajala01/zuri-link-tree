@@ -1,10 +1,18 @@
+/* * {
+  border: 1px solid red;
+} */
+
 #root {
   max-width: 1280px;
   margin: auto;
-  margin-top: 2rem;
-  padding: 2rem;
-  text-align: center;
   color: #101828;
+}
+
+#main-page {
+  margin: auto;
+  margin-top: 2rem;
+  text-align: center;
+  width: 80vw;
 }
 
 #twitter {
@@ -41,7 +49,6 @@ section {
   font-weight: 500;
   font-size: 18px;
   padding: 1.6rem 0;
-  width: 80vw;
   margin: 1rem 0;
   border: none;
   border-radius: 10px;
@@ -66,6 +73,60 @@ footer {
   display: flex;
   justify-content: space-between;
   width: 80vw;
+}
+
+#contact-page {
+  width: 80vw;
+  margin: auto;
+}
+
+#contact-page h4 {
+  font-size: 4rem;
+  text-align: start;
+  margin: 1rem 0;
+}
+
+form {
+  display: block;
+  text-align: initial;
+  /* width: fit-content; */
+  max-width: 100%;
+}
+
+label {
+  display: block;
+  padding: 0.4rem 0;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row .input-group {
+  flex-basis: 48%;
+}
+
+.firstname,
+.lastname {
+  /* flex: 1; */
+  width: 100%;
+}
+
+input,
+textarea {
+  padding: 0.5rem;
+  border: 1px solid #B2DDFF;
+  outline: 0;
+}
+
+#contact-page button {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #175CD3;
+  color: #ffffff;
+  font-size: 1rem;
 }
 
 @media screen and (max-width: 800px) {

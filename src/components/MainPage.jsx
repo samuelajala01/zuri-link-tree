@@ -9,7 +9,7 @@ import shareMobile from '../assets/share-btn-mobile.svg'
 
 const MainPage = () => {
   return (
-    <>
+    <section id="main-page">
       <img src={TweetPic} className='tweet__pic' id="profile__img" />
       <img src={shareDesktop} className='shareDesktop' />
       <img src={shareMobile} className='shareMobile' />
@@ -25,7 +25,7 @@ const MainPage = () => {
       </section>
       <span className="logo__div"><img src={SlackLogo} /><img src={GitLogo} /></span>
       <footer><img src={ZuriLogo} /> <p>HNG Internship 9 Frontend task</p><img src={i4g} /></footer>
-    </>
+    </section>
   )
 }
 

@@ -1,8 +1,12 @@
-
+import ContactForm from "./ContactForm"
 
 const ContactPage = () => {
     return (
-        <h1>Contact Page</h1>
+        <section id="contact-page">
+            <h4>Contact Me</h4>
+            <p>Hi there, contact me to tell me anything you have in mind</p>
+            <ContactForm />
+        </section>
     )
 }
 
