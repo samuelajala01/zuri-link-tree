@@ -64,13 +64,14 @@ section {
   height: 8rem;
 }
 
+
 .logo__div img {
   padding: 0.5rem;
 }
 
 footer {
   margin: auto;
-  margin-top: 2rem;
+  margin-top: 4rem;
   margin-bottom: 3rem;
   padding: 0.5rem;
   border-top: 2px solid #101828;
@@ -94,6 +95,8 @@ footer {
 #contact-page p {
   margin: 2rem 0;
   font-size: 1.5rem;
+  font-weight: 400;
+  color: #475467;
 }
 
 form {
@@ -126,34 +129,15 @@ button {
   border-radius: 10px;
 }
 
-/* input:invalid,
-textarea:invalid {
-  border-color: #F83F23;
-} */
-
-textarea::placeholder {
+textarea::placeholder,
+input::placeholder {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  color: #667085;
 }
 
 .input-group,
 .email {
   margin-bottom: 0.8rem;
-}
-
-.contract {
-  margin: 1.5rem 0;
-}
-
-.message_info {
-  display: none;
-}
-
-#checkbox {
-  border: 1px solid #B2DDFF;
-}
-
-span {
-  margin-left: 0.4rem;
 }
 
 input,
@@ -168,6 +152,25 @@ input:focus,
 textarea:focus {
   border-color: #B2DDFF;
 }
+
+.message_info {
+  display: none;
+}
+
+
+#checkbox {
+  border: unset;
+  outline: 1px solid #B2DDFF;
+}
+
+.contract {
+  margin: 1.5rem 0;
+}
+
+span {
+  margin-left: 0.4rem;
+}
+
 
 #contact-page button {
   border: unset;

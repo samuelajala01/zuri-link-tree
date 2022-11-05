@@ -20,7 +20,7 @@ const MainPage = () => {
         <a id='book__python' href='https://books.zuri.team/python-for-beginners?ref_id=cy63rx'>Python Books</a>
         <a id='pitch' href='https://background.zuri.team'>Background check for coders</a>
         <a id='book__design' href='https://books.zuri.team/design-rules' >Design Books</a>
-        <a id="contact" href="/contact">Contact</a>
+        <a id="contact" href="/contact">Contact Me</a>
       </section>
       <span className="logo__div"><img src={SlackLogo} /><a href="https://github.com/samuelajala01"><img src={GitLogo} /></a></span>
       <Footer />
