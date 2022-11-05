@@ -92,7 +92,7 @@ footer {
   text-align: start;
 }
 
-#contact-page p {
+.greeting {
   margin: 2rem 0;
   font-size: 1.5rem;
   font-weight: 400;
@@ -149,14 +149,21 @@ textarea {
 }
 
 input:focus,
-textarea:focus {
+textarea:focus,
+input:valid,
+textarea:valid {
   border-color: #B2DDFF;
 }
 
-.message_info {
-  display: none;
+input:required {
+  border-color: #f83f23;
 }
 
+.error-info {
+  color: #f83f23;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+}
 
 #checkbox {
   border: unset;
