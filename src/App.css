@@ -83,8 +83,6 @@ footer {
   width: 80vw;
   margin: auto;
   margin-top: 3rem;
-  /* margin-left: 4rem;
-  margin-right: 4rem; */
   margin-bottom: 5rem;
 }
 
@@ -99,7 +97,6 @@ footer {
 }
 
 form {
-  /* margin: 0 3rem; */
   display: block;
   text-align: initial;
 }
@@ -129,6 +126,11 @@ button {
   border-radius: 10px;
 }
 
+/* input:invalid,
+textarea:invalid {
+  border-color: #F83F23;
+} */
+
 textarea::placeholder {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
 }
@@ -140,6 +142,14 @@ textarea::placeholder {
 
 .contract {
   margin: 1.5rem 0;
+}
+
+.message_info {
+  display: none;
+}
+
+#checkbox {
+  border: 1px solid #B2DDFF;
 }
 
 span {
@@ -161,7 +171,7 @@ textarea:focus {
 
 #contact-page button {
   border: unset;
-  padding: 0.5rem;
+  padding: 0.8rem 0;
   background-color: #175CD3;
   color: #ffffff;
   font-size: 1rem;
